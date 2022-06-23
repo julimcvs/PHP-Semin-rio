@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+</head>
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo 8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+        div {margin: 3% 6%;}
+        .echo {color: black}
+    </style>
+</head>
+<body>
+
+<div class="w3-container w3-red w3-center" style="padding:128px 16px">
+    <h1>Mudando propriedades do CSS com PHP</h1>
+    <p>Em PHP, é possível alterar propriedades do CSS. Assim, é possível personalizar o estilo de uma página.</p>
+    <p>Nesse exemplo, faremos um formulário para criar um perfil personalizado.</p>
+    <h2>Criar um perfil</h2>
+    <form method="get" action="perfil.php">
+        Nome de Usuário: <input type="text" name="nome" required>
+        Fonte Desejada: <select name="fonte" required>
+                            <option value="Impact" style="font-family: Impact">Impact</option>
+                            <option value="Jazz LET" style="font-family: Jazz LET">Jazz LET</option>
+                            <option value="fantasy" style="font-family: fantasy">Fantasy</option>
+                            <option value="American Typewriter" style="font-family: American Typewriter">American Typewriter</option>
+                        </select>
+        Linguagem de programação favorita:
+        <select name="lp" required>
+            <option value="devicon-c-plain">C</option>
+            <option value="devicon-cplusplus-plain">C++</option>
+            <option value="devicon-java-plain-wordmark">Java</option>
+            <option value="devicon-javascript-plain">Javascript</option>
+            <option value="devicon-php-plain">PHP</option>
+            <option value="devicon-python-plain">Python</option>
+        </select>
+        Cor de fundo: <input type="color" name="cor" required>
+        <br><br><button class="w3-button w3-hover-white" style="background-color: black">Cadastrar</button>
+    </form>
+</div>
+</body>
