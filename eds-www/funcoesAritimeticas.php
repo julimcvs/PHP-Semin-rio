@@ -14,7 +14,6 @@
     <style>
         body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
         div {margin: 3% 6%;}
-        .echo {color: black}
     </style>
 </head>
 <body>
@@ -23,15 +22,19 @@
     <h1>Funções Aritméticas</h1>
     <p>Em PHP há algumas funções para fazer manipulação de números.</p>
     <?php
-        $n1 = 6;
+        $n1 = -6;
         $n2 = 36;
-        $n3 = 3.4;
-        echo "<h3>n1 = $n1, n2 = $n2, n3 = $n3<br></h3>";
+        $n3 = 3.7;
+        $n4 = 2.2;
+        echo "<h3>n1 = $n1, n2 = $n2, n3 = $n3, n4 = $n4<br></h3>";
         echo "<h4 class='echo'>O valor absoluto de n1 é: ".abs($n1);
         echo "<br>n1 ao quadrado é: ".pow($n1,2);
+        echo "<br>A raíz quadrada de n1 é: ".sqrt($n1);
         echo "<br>A raíz quadrada de n2 é: ".sqrt($n2);
         echo "<br>Arredondando n3 temos: ".round($n3);
-        echo "<br>A parte inteira de n3 é: ".intval($n3--)."</h4>";
+        echo "<br>Arredondando n4 temos: ".round($n4);
+        echo "<br>A parte inteira de n3 é: ".intval($n3)."</h4>";
+        echo "<br>O tipo de null é: ".gettype(NAN);
     ?>
 </div>
 </body>

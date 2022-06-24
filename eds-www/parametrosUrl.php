@@ -28,7 +28,8 @@
     <?php
     $param1 = $_GET["a"];
     $param2 = $_GET["b"];
-    echo "<h2 id='echo'>A soma dos parâmetros é: $param1+$param2<br></h2>";
+    $resultado = $param1 + $param2;
+    echo "<h2 id='echo'>A soma dos parâmetros é: $resultado<br></h2>";
     ?>
 </div>
 </body>
