@@ -5,7 +5,7 @@
 </head>
 <head>
     <meta charset="utf-8">
-    <title>Exemplo 3</title>
+    <title>Exemplo 10</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -14,24 +14,16 @@
     <style>
         body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
         div {margin: 3% 6%;}
-        #echo {color: black}
     </style>
 </head>
 <body>
 
 <div class="w3-container w3-red w3-center" style="padding:128px 16px">
-    <h1>Passagem de parâmetros pela URL</h1>
-    <p>Com PHP, podemos passar parâmetros pela URL, colocando "?" + "nome do parâmetro = valor"<br>
-        Para passar mais de um parâmetro, utilizamos o operador "&" <br>
-        Passe os parâmetros a e b pela URL!<br>
-        Exemplo: http://127.0.0.1/parametrosUrl.php?a=3&b=2</p>
-    <?php
-    $param1 = $_GET["a"];
-    $param2 = $_GET["b"];
-    echo "<h2 id='echo'>A soma dos parâmetros é: $param1+$param2<br></h2>";
-    ?>
+    <h1>Tag Echo Curta</h1>
+
+    <p>Se quisermos apenas imprimir algo na tela, podemos usar a tag echo curta.
+      <br>Caso seja necessário processar dados, é necessário usar a tag php.
+    </p>
+    <?= "<h4>Quero apenas imprimir algo na tela.</h4>" ?>
 </div>
 </body>
-
-
-
