@@ -30,10 +30,6 @@
             margin: 3% 6%;
         }
 
-        .echo {
-            color: black
-        }
-
         .w3-container {
             background-color: <?php echo $cor?>;
         }

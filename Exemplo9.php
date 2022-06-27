@@ -18,10 +18,6 @@
         div {
             margin: 3% 6%;
         }
-
-        .echo {
-            color: black
-        }
     </style>
 </head>
 <body>

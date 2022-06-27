@@ -2,16 +2,16 @@
 
 class Produto
 {
-    private var $nome;
-    private var $preco;
-    private var $quantidadeEmEstoque;
+    private $nome;
+    private $preco;
+    private $quantidadeEmEstoque;
 
     public function getNome()
     {
         return $this->nome;
     }
 
-    public function setNome($nome): void
+    public function setNome($nome)
     {
         $this->nome = $nome;
     }
@@ -21,7 +21,7 @@ class Produto
         return $this->preco;
     }
 
-    public function setPreco($preco): void
+    public function setPreco($preco)
     {
         $this->preco = $preco;
     }
@@ -31,9 +31,10 @@ class Produto
         return $this->quantidadeEmEstoque;
     }
 
-    public function setQuantidadeEmEstoque($quantidadeEmEstoque): void
+    public function setQuantidadeEmEstoque($quantidadeEmEstoque)
     {
         $this->quantidadeEmEstoque = $quantidadeEmEstoque;
     }
-
 }
+
+
